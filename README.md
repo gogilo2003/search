@@ -1,5 +1,4 @@
-# FAQs
-Search models 
+# Search models 
 
 The Model implemets the Searchable abstract class
 
