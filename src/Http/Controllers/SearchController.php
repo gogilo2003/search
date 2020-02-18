@@ -16,7 +16,7 @@ class SearchController extends Controller
 {
     function getSearch(Request $request, Models $models){
 		$page = new Page;
-		$page->title = 'Search Results for '.$request->search;
+		$page->title = 'Search Results'.$request->q ? ' for'.$request->q : '';
         // dd($models);
         $searchResults = new Search();
         foreach ($models as $model) {
