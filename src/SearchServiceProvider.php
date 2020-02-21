@@ -34,7 +34,7 @@ class SearchServiceProvider extends ServiceProvider
 
 	public function boot()
 	{
-		config(['admin.menu.admin-search'=>'Search']);
+		// config(['admin.menu.admin-search'=>'Search']);
 
 		if ($this->app->runningInConsole()) {
 			$this->commands($this->commands);
