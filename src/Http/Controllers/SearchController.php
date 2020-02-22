@@ -35,6 +35,6 @@ class SearchController extends Controller
             }
         }
 
-		return view()->first(['web.search','search','search::web.results'],['results'=>$results,'total'=>$total,'page'=>$page, $search_value=>$request->q]);
+		return view()->first(['web.search','search','search::web.results'],['results'=>$results, 'total'=>$total, 'page'=>$page, 'search_value'=>$request->q]);
 	}
 }
