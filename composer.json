@@ -9,7 +9,7 @@
         }
     ],
     "require": {
-        "gogilo/admin-md": "dev-master",
+        "gogilo/admin-md": "^0.0",
         "spatie/laravel-searchable": "^1.13"
     },
     "autoload": {
